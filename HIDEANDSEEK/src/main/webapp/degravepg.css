@@ -1,0 +1,157 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-image: url("img2.jpg");
+    background-repeat: repeat;
+}
+
+/*For top heading*/
+#toph{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+#d_head {
+    text-align: center;
+    padding: 15px;
+    color: black;
+}
+#head{
+    cursor: pointer;
+    font-family: 'Monoton', cursive;
+    font-size: 60px;
+}
+
+/*For Horizontal bar*/
+.hr3{
+    margin: 0;
+    padding: 0;
+    border-style: double;
+    border-width: 2px;
+    background: white;
+    border-color: black;
+}
+
+/*For Navigation menu*/
+.nav{
+    background: #b0adad;
+}
+a {
+    color: #f8f9fa;
+}
+a:hover{
+    color: black;
+}
+nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    background-image: url("img2.jpg");
+    border-color: #dee2e6 #dee2e6 #fff;
+}
+
+/*For Sub heading*/
+#top_name{
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: 'Architects Daughter', cursive;
+    font-size: 50px;
+}
+
+/*For the form part*/
+#top_container{
+    height: 300px;
+    margin: 30px;
+    padding: 10px;
+    border: 3px solid black;
+    background: #f5f2ee;
+}
+#top_file_input{
+    text-align: left;
+    border: 2px solid red;
+    margin-top: 15px;
+    margin-left: 38px;
+    margin-bottom: 20px;
+    padding-top: 2px;
+    padding-left: 2px;
+    width: 94%;
+    height: 40px;
+}
+#file_input{
+    font-weight: bold;
+    color: darkslategray;
+    background: transparent;
+}
+.sub_head{
+    text-align: left;
+    padding-left: 40px;
+}
+#text_output{
+    margin: 5px 20px 20px 38px;  /*top  right bottom left*/
+    text-align: left;
+    border: 2px solid red;
+    width: 94%;
+    height: 40px;
+    background: lightgray;
+    font-weight: bold;
+}
+#button_3{
+    height: 20%;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    background: darkgrey;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 38%;
+    border-radius: 10px;
+    font-weight: bold;
+}
+#button_3:hover{
+    background: grey;
+    box-shadow: 2px 2px red;
+}
+
+/*For box Hover*/
+.hoverbox:hover{
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+/*For footer*/
+#d_name{
+    position: fixed;
+    display: inline-block;
+    padding-top: 8px;
+    padding-left: 5%;
+    padding-bottom: 4px;
+    width: 100%;
+    bottom: 0;
+    background: darkgray;
+}
+#name{
+    float: right;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+    background: transparent;
+    color: white;
+}
+#foot_name{
+    float: right;
+    padding-right: 10px;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+#foot_rights{
+    float: left;
+    font-family: 'Lato', sans-serif;
+    color: black;
+}
+#rights{
+    float: left;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
